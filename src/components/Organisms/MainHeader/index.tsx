@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-// import logo from "@icons/foodielandLogo.svg";
+import logo from "./../../../assets/foodielandLogo.svg";
 
 import "./styles.scss";
 
@@ -31,7 +31,7 @@ const MainHeader = () => {
   return (
     <header>
       <nav className="navBar">
-        <img src={'logo'} className="navBar__img" />
+        <img src={logo} className="navBar__img" />
         <ul className={`navBar__lists ${Modal ? "navBar__lists--active" : ""}`}>
           <Link to={"/"}>
             <li className="navBar__item">Home</li>
