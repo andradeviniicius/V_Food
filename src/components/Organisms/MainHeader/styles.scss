@@ -1,0 +1,93 @@
+.navBar__lists {
+    display: none;
+    text-decoration: none;
+    list-style: none;
+  }
+  .navBar__icons {
+    display: none;
+  }
+  .navBar__lists--active  {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    top: 119px;
+    padding-top:27px ;
+    padding-left: 30px;
+    right: 0px;
+    display: block;
+    height: calc(470px);
+    z-index: 1000;
+  }
+  .navBar__lists--active .navBar__item {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 24px;
+  }
+  .navBar {
+    padding-top: 33px;
+    padding-right: 35px;
+    padding-left: 80px;
+    padding-bottom: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 31px;
+  }
+  
+  .navBar__burguerBtn {
+    display: flex;
+    flex-direction: column;
+    width: 55px;
+    cursor: pointer;
+    
+  }
+  
+  .navBar__burguer1,.navBar__burguer2, .navBar__burguer3  {
+    background: var(--fontColor);
+    border-radius: 5px;
+    height: 8px;
+    margin-top: 8px;
+    transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+    width: 100%;
+    
+  }
+  
+  .navBar__burguerBtn--active .navBar__burguer1{
+    background-color: transparent;
+    transition-duration: 0.01s;
+  }
+  
+  .navBar__burguerBtn--active .navBar__burguer2{
+      transform: rotate(130deg);
+      position: relative;
+  }
+  .navBar__burguerBtn--active .navBar__burguer3{
+      transform: rotate(-130deg);
+      position: relative;
+      top: -16px;
+  }
+  
+  @media (min-width: 1024px) {
+    .navBar__lists {
+      display: flex;
+    }
+    .navBar__burguerBtn{
+      display: none;
+    }
+    .navBar__item{
+      cursor: pointer;
+      font-weight: 500;
+      padding-right: 60px;
+    }
+    .navBar__icons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      
+    }
+    .navBar__svg {
+     margin-right: 40px;
+    }
+  }
