@@ -40,19 +40,19 @@ const MainHeader = () => {
           }`}
         >
           <li className="mainHeader__item">
-            <Link onClick={handleClick} to={"/"}>Home</Link>
+            <Link onClick={()=>{setModal(false)}} to={"/"}>Home</Link>
           </li>
           <li className="mainHeader__item">
-            <Link onClick={handleClick} to="/recipes">Recipes</Link>
+            <Link onClick={()=>{setModal(false)}} to="/recipes">Recipes</Link>
           </li>
           <li className="mainHeader__item">
-            <Link onClick={handleClick} to="/blogListPage">Blog</Link>
+            <Link onClick={()=>{setModal(false)}} to="/blogListPage">Blog</Link>
           </li>
           <li className="mainHeader__item">
-            <Link onClick={handleClick} to="/aboutUs">About us</Link>
+            <Link onClick={()=>{setModal(false)}} to="/aboutUs">About us</Link>
           </li>
           <li className="mainHeader__item">
-            <Link onClick={handleClick} to="/contact">Contact</Link>
+            <Link onClick={()=>{setModal(false)}} to="/contact">Contact</Link>
           </li>
         </ul>
         <div
