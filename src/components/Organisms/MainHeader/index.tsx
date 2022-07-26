@@ -40,19 +40,19 @@ const MainHeader = () => {
           }`}
         >
           <li className="mainHeader__item">
-            <Link to={"/"}>Home</Link>
+            <Link onClick={handleClick} to={"/"}>Home</Link>
           </li>
           <li className="mainHeader__item">
-            <Link to="/recipes">Recipes</Link>
+            <Link onClick={handleClick} to="/recipes">Recipes</Link>
           </li>
           <li className="mainHeader__item">
-            <Link to="/blogListPage">Blog</Link>
+            <Link onClick={handleClick} to="/blogListPage">Blog</Link>
           </li>
           <li className="mainHeader__item">
-            <Link to="/aboutUs">About us</Link>
+            <Link onClick={handleClick} to="/aboutUs">About us</Link>
           </li>
           <li className="mainHeader__item">
-            <Link to="/contact">Contact</Link>
+            <Link onClick={handleClick} to="/contact">Contact</Link>
           </li>
         </ul>
         <div
