@@ -1,12 +1,14 @@
 import "./style.scss";
 
 type Props = {
-  handleClick?: () => void;
+  handleClick?: (
+    event: React.MouseEvent<HTMLButtonElement, MouseEvent>
+  ) => void;
   btnValue?: any;
   btnShape?: "square" | "rounded";
   btnColor?: "light";
   btnSize?: undefined | "tiny" | "large";
-  btnInsideInput?: string;
+  btnInsideInput?: boolean;
   children: string;
 };
 

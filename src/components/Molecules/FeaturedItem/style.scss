@@ -1,0 +1,105 @@
+.featuredItem {
+  position: relative;
+  flex: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+  width: 100%;
+  background-color: #e7fafe;
+  border-radius: 50px;
+  &__leftContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 3%;
+    gap: 3%;
+    width: 50%;
+    height: 100%;
+  }
+  &__categoriesStamp {
+    transition: transform 0.5s;
+    :hover {
+      transform: scale(1.05);
+    }
+  }
+
+  &__cardInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 64px;
+    transition: transform 0.5s;
+    :hover {
+      transform: scale(1.05);
+    }
+  }
+  &__subTitle {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    line-height: 28px;
+    transition: transform 0.5s;
+    :hover {
+      transform: scale(1.05);
+    }
+  }
+
+  &__recipeInfo {
+    display: flex;
+    gap: 16px;
+  }
+  &__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  &__badge {
+    position: absolute;
+    top: 50px;
+    margin-left: 80px;
+    transition: transform 0.5s;
+    :hover {
+      transform: scale(1.11);
+    }
+  }
+  &__rightContainer {
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 50px 50px 0px;
+  }
+
+  &__foodImage {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 50px 50px 0px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 1200px) {
+  .featuredItem__leftContainer {
+    width: inherit;
+    height: inherit;
+  }
+}
+
+@media (max-width: 942px) {
+  .featuredItem {
+    flex-direction: column;
+  }
+  .featuredItem__badge {
+    display: none;
+  }
+  .featuredItem__rightContainer {
+    display: none;
+  }
+}
+@media (max-width: 563px) {
+  .featuredItem__title {
+    font-size: 32px;
+  }
+}

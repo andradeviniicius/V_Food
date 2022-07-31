@@ -5,7 +5,7 @@ const SearchByCategories = () => {
   return (
     <>
       <h2>Categories</h2>
-      <MainButton title="Teste" />
+      <MainButton>View All</MainButton>
       <CategoriesList />
     </>
   );

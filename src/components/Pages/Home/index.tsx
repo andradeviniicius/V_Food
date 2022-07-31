@@ -1,9 +1,10 @@
-import {SearchByCategories} from '../../Organisms'
+import { SearchByCategories, FeaturedRecipe } from "../../Organisms";
 
 export default function Home() {
-    return (
-        <>
-            <SearchByCategories/>                               
-        </>
-    );
+  return (
+    <>
+      <FeaturedRecipe />
+      <SearchByCategories />
+    </>
+  );
 }

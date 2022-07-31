@@ -1,0 +1,523 @@
+{
+    "name": "FoodWeb Database",
+    "articles": [
+      {
+        "id": 1,
+        "image": "./public/assets/img/article01.png",
+        "title": "Crochet Projects for Noodle Lovers",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "authorImg": "./public/assets/img/wadeWarren.png",
+        "author": "Wade Warren",
+        "created_at": "12 November 2021",
+        "lastUpdated": "",
+        "liked": false
+      },
+      {
+        "id": 2,
+        "image": "./public/assets/img/article02.png",
+        "title": "10 Vegetarian Recipes To Eat This Month",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "authorImg": "./public/assets/img/robertFox.png",
+        "author": "Robert Fox",
+        "created_at": "12 November 2021",
+        "lastUpdated": ""
+      },
+      {
+        "id": 3,
+        "image": "./public/assets/img/article03.png",
+        "title": "Full Guide to Becoming a Professional Chef",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "authorImg": "./public/assets/img/dianneRussell.png",
+        "author": "Dianne Russel",
+        "created_at": "12 November 2021",
+        "lastUpdated": ""
+      },
+      {
+        "id": 4,
+        "image": "./public/assets/img/article04.png",
+        "title": "Simple & Delicious Vegetarian Lasagna",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "authorImg": "./public/assets/img/leslieAlexander.png",
+        "author": "Leslie Alexander",
+        "created_at": "12 November 2021",
+        "lastUpdated": ""
+      },
+      {
+        "id": 5,
+        "image": "./public/assets/img/article05.png",
+        "title": "Plantain and Pinto Stew with Aji Verde",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "authorImg": "./public/assets/img/courtneyHenry.png",
+        "author": "Courtney Henry",
+        "created_at": "12 November 2021",
+        "lastUpdated": ""
+      },
+      {
+        "id": 6,
+        "image": "./public/assets/img/article06.png",
+        "title": "We`re Hiring a Communications Assistant!",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "authorImg": "./public/assets/img/albertFlores.png",
+        "author": "Albert Flores",
+        "created_at": "12 November 2021",
+        "lastUpdated": ""
+      },
+      {
+        "id": 7,
+        "image": "./public/assets/img/article07.svg",
+        "title": "Healthy foods for old age person",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "authorImg": "./public/assets/img/wadeWarren.png",
+        "author": "Wade Warren",
+        "created_at": "12 November 2021",
+        "lastUpdated": ""
+      },
+      {
+        "id": 8,
+        "image": "./public/assets/img/article08.png",
+        "title": "The Best Food in Anime, Ranked",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "authorImg": "./public/assets/img/robertFox.png",
+        "author": "Robert Fox",
+        "created_at": "12 November 2021",
+        "lastUpdated": ""
+      },
+      {
+        "id": 9,
+        "image": "./public/assets/img/article09.png",
+        "title": "How retail brands are expanding in restaurants, bars and fast-food",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "authorImg": "./public/assets/img/robertFox.png",
+        "author": "Robert Fox",
+        "created_at": "12 November 2021",
+        "lastUpdated": ""
+      },
+      {
+        "id": 10,
+        "image": "./public/assets/img/article10.svg",
+        "title": "Brazilian Food: The 20 Essential Dishes To Eat In Brazil",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "authorImg": "./public/assets/img/dianneRussell.png",
+        "author": "Dianne Russel",
+        "created_at": "12 November 2021",
+        "lastUpdated": ""
+      },
+      {
+        "id": 11,
+        "image": "./public/assets/img/article04.png",
+        "title": "Simple & Delicious Vegetarian Lasagna",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "authorImg": "./public/assets/img/leslieAlexander.png",
+        "author": "Leslie Alexander",
+        "created_at": "12 November 2021",
+        "lastUpdated": ""
+      },
+      {
+        "id": 12,
+        "image": "./public/assets/img/article05.png",
+        "title": "Plantain and Pinto Stew with Aji Verde",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "authorImg": "./public/assets/img/courtneyHenry.png",
+        "author": "Courtney Henry",
+        "created_at": "12 November 2021",
+        "lastUpdated": ""
+      },
+      {
+        "id": 13,
+        "image": "./public/assets/img/article01.png",
+        "title": "We`re Hiring a Communications Assistant!",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "authorImg": "./public/assets/img/albertFlores.png",
+        "author": "Albert Flores",
+        "created_at": "12 November 2021",
+        "lastUpdated": ""
+      },
+      {
+        "id": 14,
+        "image": "./public/assets/img/article02.png",
+        "title": "Simple & Delicious Vegetarian Lasagna",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "authorImg": "./public/assets/img/leslieAlexander.png",
+        "author": "Leslie Alexander",
+        "created_at": "12 November 2021",
+        "lastUpdated": ""
+      },
+      {
+        "id": 15,
+        "image": "./public/assets/img/article03.png",
+        "title": "Plantain and Pinto Stew with Aji Verde",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "authorImg": "./public/assets/img/courtneyHenry.png",
+        "author": "Courtney Henry",
+        "created_at": "12 November 2021",
+        "lastUpdated": ""
+      },
+      {
+        "id": 16,
+        "image": "./public/assets/img/article04.png",
+        "title": "Plantain and Pinto Stew with Aji Verde",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "authorImg": "./public/assets/img/courtneyHenry.png",
+        "author": "Courtney Henry",
+        "created_at": "12 November 2021",
+        "lastUpdated": ""
+      }
+    ],
+    "recipes": [
+      {
+        "id": 1,
+        "title": "Big and Juicy Wagyu Beef Cheeseburguer",
+        "date": "15 March 2022",
+        "prepTime": 30,
+        "cookTime": 30,
+        "categorie": "Snack",
+        "liked": true,
+        "author": "",
+        "image": "./public/assets/img/recipe01.jpg",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "219,9",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Fresh Lime Roasted Salmon with Ginger Sauce",
+        "date": "15 March 2022",
+        "prepTime": 30,
+        "cookTime": 30,
+        "categorie": "Fish",
+        "liked": false,
+        "author": "",
+        "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_500,q_auto,w_1900/hellofresh_s3/image/ginger-lime-salmon-96cd524b.jpg",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "219,9",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Strawberry Oatmeal Pancake with Honey Syrup",
+        "date": "15 March 2022",
+        "prepTime": 30,
+        "cookTime": 30,
+        "categorie": "Breakfast",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe03.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 4,
+        "title": "Fresh and Healthy Mixed Mayonnaise Salad",
+        "date": "15 March 2022",
+        "prepTime": 30,
+        "cookTime": 30,
+        "categorie": "Healthy",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe04.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 5,
+        "title": "Chicken Meatballs with Cream Cheese",
+        "date": "15 March 2022",
+        "prepTime": 30,
+        "cookTime": 30,
+        "categorie": "Meat",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe05.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 6,
+        "title": "Fruity Pancake with Orange & Blueberry",
+        "date": "15 March 2022",
+        "prepTime": 30,
+        "cookTime": 30,
+        "categorie": "Sweet",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe06.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 7,
+        "title": "The Best Easy One Pot Chicken and Rice",
+        "date": "15 March 2022",
+        "prepTime": 30,
+        "cookTime": 30,
+        "categorie": "Snack",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe07.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 8,
+        "title": "The Creamiest Creamy Chicken and Bacon Pasta",
+        "date": "15 March 2022",
+        "prepTime": 30,
+        "cookTime": 30,
+        "categorie": "Noodles",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe08.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 9,
+        "title": "Mixed Tropical Fruit Salad",
+        "date": "15 March 2022",
+        "prepTime": 30,
+        "cookTime": 30,
+        "categorie": "Healthy",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/article02.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 10,
+        "title": "Healthy Japanese Fried Rice with Asparagus",
+        "date": "15 March 2022",
+        "prepTime": 30,
+        "cookTime": 30,
+        "categorie": "Healthy",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe10.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 11,
+        "title": "Cauliflower Walnut Vegetarian Taco Meat",
+        "date": "15 March 2022",
+        "prepTime": 30,
+        "cookTime": 30,
+        "categorie": "Eastern",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe11.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 12,
+        "title": "Rainbow Chicken Salad with Almond Honey Mustard Dressing",
+        "date": "15 March 2022",
+        "prepTime": 30,
+        "cookTime": 30,
+        "categorie": "Healthy",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe12.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 13,
+        "title": "Barbeque Spicy Sandwiches with Chips",
+        "date": "15 March 2022",
+        "prepTime": 30,
+        "cookTime": 30,
+        "categorie": "Snack",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe13.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 14,
+        "title": "Firecracker Vegan Lettuce Wraps - Spicy",
+        "date": "15 March 2022",
+        "prepTime": 30,
+        "cookTime": 30,
+        "categorie": "Seafood",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe14.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 15,
+        "title": "Chicken Ramen Soup with Mushroom",
+        "date": "15 March 2022",
+        "prepTime": 30,
+        "cookTime": 30,
+        "categorie": "Japanese",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/article01.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      }
+    ],
+    "categoriesList": [
+      {
+        "id": 1,
+        "title": "Breakfest",
+        "foodSymbol": "./public/assets/img/sushiRice.png"
+      },
+      {
+        "id": 2,
+        "title": "Vegan",
+        "foodSymbol": "./public/assets/img/lettuce.png",
+        "backgroundStyle": "foodBackground--green"
+      },
+      {
+        "id": 3,
+        "title": "Meat",
+        "foodSymbol": "./public/assets/img/steakRaw.png",
+        "backgroundStyle": "foodBackground--red"
+      },
+      {
+        "id": 4,
+        "title": "Dessert",
+        "foodSymbol": "./public/assets/img/cakePiece.png",
+        "backgroundStyle": "foodBackground--yellow"
+      },
+      {
+        "id": 5,
+        "title": "Lunch",
+        "foodSymbol": "./public/assets/img/sanduich.png",
+        "backgroundStyle": "foodBackground--white"
+      },
+      {
+        "id": 6,
+        "title": "Chocolate",
+        "foodSymbol": "./public/assets/img/chocolateBar.png",
+        "backgroundStyle": "foodBackground--white"
+      }
+    ],
+    "socialMedia": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/",
+        "image": "./public/assets/icons/facebookLogo.svg"
+      },
+      {
+        "name": "twitter",
+        "link": "https://www.twitter.com/",
+        "image": "./public/assets/icons/twitterLogo.svg"
+      },
+      {
+        "name": "instagram",
+        "link": "https://www.instagram.com/",
+        "image": "./public/assets/icons/instagramLogo.svg"
+      }
+    ]
+  }
+  

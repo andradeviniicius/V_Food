@@ -1,0 +1,31 @@
+.featuredRecipe {
+  display: grid;
+  place-items: center;
+  height: fit-content;
+  &__content {
+    width: 90vw;
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    list-style-type: none;
+  }
+  &__list {
+    display: flex;
+    gap: 25px;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+  }
+
+  &__navButton {
+  }
+}
+
+.featuredLeftBtn {
+}
+.featuredRightBtn {
+}
