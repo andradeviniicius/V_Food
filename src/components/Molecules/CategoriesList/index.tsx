@@ -1,5 +1,4 @@
 import { CategoriesItem } from "../../Atoms";
-import { useEffect } from "react";
 
 const CategoriesList = () => {
   return (
