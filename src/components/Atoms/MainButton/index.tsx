@@ -1,15 +1,14 @@
 import "./style.scss";
 
-type Props =
-   {
-      handleClick?: () => void;
-      btnValue?: any;
-      btnShape?: "square" | "rounded";
-      btnColor?: "light";
-      btnSize?: undefined | "tiny" | "large";
-      btnInsideInput?: string;
-      children: string;
-    };
+type Props = {
+  handleClick?: () => void;
+  btnValue?: any;
+  btnShape?: "square" | "rounded";
+  btnColor?: "light";
+  btnSize?: undefined | "tiny" | "large";
+  btnInsideInput?: string;
+  children: string;
+};
 
 export default function MainButton(props: Props) {
   return (
