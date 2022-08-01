@@ -3,8 +3,11 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import { ErrorMessage } from "./components/Atoms";
 import { MainHeader } from "./components/Organisms";
 import { Home } from "./components/Pages";
+import database from "./services/database";
 
 function App() {
+  console.log(database);
+
   return (
     <>
       <MainHeader />
