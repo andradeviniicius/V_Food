@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { ErrorMessage } from "./components/Atoms";
-import { MainHeader } from "./components/Organisms";
+import { MainHeader, MainFooter } from "./components/Organisms";
 import { Home } from "./components/Pages";
 
 function App() {
@@ -18,7 +18,8 @@ function App() {
           <Route path="/contact" element={<ErrorMessage />} />
         </Routes>
       </main>
-    </>   
+      <MainFooter />
+    </>
   );
 }
 
