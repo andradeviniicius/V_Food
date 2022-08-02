@@ -1,12 +1,15 @@
 .mainHeader {
-  padding-right: 35px;
-  padding-left: 80px;
-  height: 97px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  margin-bottom: 31px;
+  &__nav {
+    padding-right: 35px;
+    padding-left: 80px;
+    height: 97px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 31px;
+  }
 
   &__pageOptions {
     display: none;
@@ -87,7 +90,7 @@
       align-items: center;
       justify-content: center;
       font-weight: 500;
-      transition: .3s;
+      transition: 0.3s;
       width: 100px;
       &:hover {
         background-color: #00000010;

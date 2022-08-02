@@ -9,6 +9,7 @@ type Props = {
   btnColor?: "light";
   btnSize?: undefined | "tiny" | "large";
   btnInsideInput?: boolean;
+  btnExtraClass?: string;
   children: string;
 };
 
@@ -23,6 +24,7 @@ export default function MainButton(props: Props) {
         ${props.btnColor ? `mainBtn--${props.btnColor}` : ""}
         ${props.btnSize ? `mainBtn--${props.btnSize}` : ""}
         ${props.btnInsideInput ? `mainBtn--${props.btnInsideInput}` : ""}
+        ${props.btnExtraClass ? `${props.btnExtraClass}` : ""}
         `}
     >
       {props.children}
