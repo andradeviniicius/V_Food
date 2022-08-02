@@ -29,8 +29,8 @@ const MainHeader = () => {
   }, []);
 
   return (
-    <header>
-      <nav className="mainHeader">
+    <header className="mainHeader">
+      <nav className="mainHeader__nav">
         <Link to={"/"}>
           <img alt="V_Food Logo" src={logo} className="mainHeader__logo" />
         </Link>
