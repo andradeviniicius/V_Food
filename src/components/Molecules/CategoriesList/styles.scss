@@ -1,0 +1,14 @@
+.searchCategories {
+  &__container {
+    grid-area: bottom;
+    width: 90vw;
+  }
+  &__list {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+}

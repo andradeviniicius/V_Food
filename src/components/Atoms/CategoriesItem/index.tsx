@@ -5,9 +5,9 @@ type Props = { categIcon: string; categName: string };
 
 const CategoriesItem = ({ categIcon, categName }: Props) => {
   return (
-    <li className="categoriesItem">
-      <img className="categoriesItem__image" src={dummyImage} alt="" />
-      <p className="categoriesItem__text">{categName}</p>
+    <li className="searchCategories__item">
+      <img className="searchCategories__image" src={dummyImage} alt="" />
+      <p className="searchCategories__text">{categName}</p>
     </li>
   );
 };
