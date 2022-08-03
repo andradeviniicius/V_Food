@@ -173,7 +173,7 @@
         "categorie": "Snack",
         "liked": true,
         "author": "",
-        "image": "./public/assets/img/recipe01.jpg",
+        "image": "assets/img/dummyImage1.png",
         "createdAt": "",
         "nutrition_info": {
           "calories": "219,9",
@@ -193,7 +193,7 @@
         "categorie": "Fish",
         "liked": false,
         "author": "",
-        "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_500,q_auto,w_1900/hellofresh_s3/image/ginger-lime-salmon-96cd524b.jpg",
+        "image": "assets/img/dummyImage1.png",
         "createdAt": "",
         "nutrition_info": {
           "calories": "219,9",
@@ -213,7 +213,7 @@
         "categorie": "Breakfast",
         "liked": false,
         "author": "",
-        "image": "./public/assets/img/recipe03.png",
+        "image": "assets/img/dummyImage1.png",
         "createdAt": "",
         "nutrition_info": {
           "calories": "xx",
@@ -233,7 +233,7 @@
         "categorie": "Healthy",
         "liked": false,
         "author": "",
-        "image": "./public/assets/img/recipe04.png",
+        "image": "assets/img/dummyImage1.png",
         "createdAt": "",
         "nutrition_info": {
           "calories": "xx",
@@ -253,7 +253,7 @@
         "categorie": "Meat",
         "liked": false,
         "author": "",
-        "image": "./public/assets/img/recipe05.png",
+        "image": "assets/img/dummyImage1.png",
         "createdAt": "",
         "nutrition_info": {
           "calories": "xx",
@@ -273,7 +273,7 @@
         "categorie": "Sweet",
         "liked": false,
         "author": "",
-        "image": "./public/assets/img/recipe06.png",
+        "image": "assets/img/dummyImage1.png",
         "createdAt": "",
         "nutrition_info": {
           "calories": "xx",
@@ -293,7 +293,7 @@
         "categorie": "Snack",
         "liked": false,
         "author": "",
-        "image": "./public/assets/img/recipe07.png",
+        "image": "assets/img/dummyImage1.png",
         "createdAt": "",
         "nutrition_info": {
           "calories": "xx",
@@ -313,7 +313,7 @@
         "categorie": "Noodles",
         "liked": false,
         "author": "",
-        "image": "./public/assets/img/recipe08.png",
+        "image": "assets/img/dummyImage1.png",
         "createdAt": "",
         "nutrition_info": {
           "calories": "xx",
@@ -333,7 +333,7 @@
         "categorie": "Healthy",
         "liked": false,
         "author": "",
-        "image": "./public/assets/img/article02.png",
+        "image": "assets/img/dummyImage1.png",
         "createdAt": "",
         "nutrition_info": {
           "calories": "xx",
@@ -353,7 +353,7 @@
         "categorie": "Healthy",
         "liked": false,
         "author": "",
-        "image": "./public/assets/img/recipe10.png",
+        "image": "assets/img/dummyImage1.png",
         "createdAt": "",
         "nutrition_info": {
           "calories": "xx",
@@ -373,7 +373,7 @@
         "categorie": "Eastern",
         "liked": false,
         "author": "",
-        "image": "./public/assets/img/recipe11.png",
+        "image": "assets/img/dummyImage1.png",
         "createdAt": "",
         "nutrition_info": {
           "calories": "xx",
@@ -393,7 +393,7 @@
         "categorie": "Healthy",
         "liked": false,
         "author": "",
-        "image": "./public/assets/img/recipe12.png",
+        "image": "assets/img/dummyImage1.png",
         "createdAt": "",
         "nutrition_info": {
           "calories": "xx",
@@ -413,7 +413,7 @@
         "categorie": "Snack",
         "liked": false,
         "author": "",
-        "image": "./public/assets/img/recipe13.png",
+        "image": "assets/img/dummyImage1.png",
         "createdAt": "",
         "nutrition_info": {
           "calories": "xx",
@@ -433,7 +433,7 @@
         "categorie": "Seafood",
         "liked": false,
         "author": "",
-        "image": "./public/assets/img/recipe14.png",
+        "image": "assets/img/dummyImage1.png",
         "createdAt": "",
         "nutrition_info": {
           "calories": "xx",
@@ -453,7 +453,7 @@
         "categorie": "Japanese",
         "liked": false,
         "author": "",
-        "image": "./public/assets/img/article01.png",
+        "image": "assets/img/dummyImage1.png",
         "createdAt": "",
         "nutrition_info": {
           "calories": "xx",
