@@ -3,6 +3,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import { ErrorMessage } from "./components/Atoms";
 import { MainHeader, MainFooter } from "./components/Organisms";
 import { Home } from "./components/Pages";
+import { ChakraProvider } from "@chakra-ui/react";
 
 function App() {
   return (
