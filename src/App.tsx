@@ -9,8 +9,7 @@ function App() {
   return (
     <>
       <MainHeader />
-      <ChakraProvider>
-        <main>
+        <main className="mainContent">
           <Routes>
             <Route path="/" element={<Navigate to={"/home"} />} />
             <Route path="/home" element={<Home />} />
@@ -20,7 +19,6 @@ function App() {
             <Route path="/contact" element={<ErrorMessage />} />
           </Routes>
         </main>
-      </ChakraProvider>
       <MainFooter />
     </>
   );
