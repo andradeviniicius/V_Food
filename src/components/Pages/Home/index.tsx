@@ -2,7 +2,8 @@ import {
   SearchByCategories,
   FeaturedRecipe,
   RecipeList,
-  LearnMore
+  LearnMore,
+  Publicity,
 } from "components/Organisms";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
     <>
       <FeaturedRecipe />
       {/* <SearchByCategories /> */}
+      <Publicity></Publicity>
       <LearnMore></LearnMore>
       <RecipeList />
     </>

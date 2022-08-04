@@ -16,7 +16,7 @@ body {
 .mainContent {
   display: flex;
   flex-direction: column;
-  gap: 160px;
+  gap: 130px;
 }
 
 a {
