@@ -1,0 +1,15 @@
+.recipeList {
+  text-align: center;
+  &__title {
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 24px;
+    letter-spacing: -4%;
+    line-height: .8;
+  }
+  &__subTitle {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 96px;
+  }
+}

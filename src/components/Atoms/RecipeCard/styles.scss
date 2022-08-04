@@ -1,6 +1,7 @@
 .recipeCard {
   padding: 16px 24px 32px 24px;
   width: 400px;
+  width: clamp(200px, 100%, 400px);
   height: 434px;
   border-radius: 30px;
   background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #e7f9fd 100%);
@@ -24,9 +25,10 @@
   }
   &__title {
     font-weight: 600;
-    font-size: 24px;
+    font-size: clamp(16px, 2.5vw, 24px);
+    text-align: start;
   }
-  &__recipeInfo {
+  F &__recipeInfo {
     display: flex;
     gap: 24px;
   }
