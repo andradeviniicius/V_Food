@@ -11,9 +11,9 @@ export default function Home() {
     <>
       <FeaturedRecipe />
       {/* <SearchByCategories /> */}
-      <Publicity></Publicity>
-      <LearnMore></LearnMore>
       <RecipeList />
+      <LearnMore></LearnMore>
+      <Publicity></Publicity>
     </>
   );
 }

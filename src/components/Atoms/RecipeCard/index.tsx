@@ -4,8 +4,6 @@ import fork from "assets/icons/forkKnife.svg";
 
 import dummyImage from "assets/img/dummyImage1.png";
 
-import { RecipeCategorie } from "components/Atoms";
-
 type Props = {
   image: string;
   description: string;

@@ -9,7 +9,7 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    width: 90vw;
+    width: 80vw;
   }
 
   &__title {
@@ -79,7 +79,6 @@
     }
     &__img {
       grid-area: 1 / 2 / 4 / 3;
-      margin: 40px 0;
       width: 665px;
       width: 100%;
     }

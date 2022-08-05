@@ -15,7 +15,7 @@
   }
   &__image {
     width: 100%;
-    height: 70%;
+    height: 60%;
     object-position: center;
     object-fit: cover;
     border-radius: 30px;
@@ -25,11 +25,12 @@
   }
   &__title {
     font-weight: 600;
-    font-size: clamp(16px, 2.5vw, 24px);
+    font-size: clamp(12px, 2.5vw, 18px);
     text-align: start;
   }
-  F &__recipeInfo {
+  &__recipeInfo {
     display: flex;
+    justify-content: flex-start;
     gap: 24px;
   }
   &__text {

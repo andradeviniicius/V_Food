@@ -2,10 +2,10 @@
   width: 100%;
   display: grid;
   place-items: center;
-  height: fit-content;
+  height: 100%;
   &__content {
     text-align: center;
-    width: 90vw;
+    width: 80vw;
   }
   &__title {
     font-weight: 600;
@@ -17,6 +17,6 @@
   &__subTitle {
     font-weight: 500;
     font-size: 16px;
-    margin-bottom: 96px;
+    margin-bottom: 2%;
   }
 }
