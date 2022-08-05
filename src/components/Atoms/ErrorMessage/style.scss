@@ -1,0 +1,19 @@
+.messageErrorBox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.messageErrorBox_text--red {
+  color: red;
+  margin-top: 20px;
+}
+
+.messageErrorBox_text--bold {
+  font-weight: bold;
+  padding-top: 40px;
+}
+
+.messageErrorBox__image {
+  margin-top: 50px;
+}

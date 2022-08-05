@@ -1,0 +1,29 @@
+@media (min-width: 1024px) {
+  .mainFooter {
+    &__content {
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+    &__topContainer {
+      display: flex;
+      flex-direction: row;
+    }
+    &__nav {
+      width: 60%;
+    }
+    &__pageOptions {
+      justify-content: space-between;
+      font-size: 16px;
+    }
+    &__bottomContainer {
+      grid-template-columns: 13% 13% 41% 13% 20%;
+    }
+    &__copyright {
+      grid-column-start: 3;
+      margin-bottom: 0px;
+    }
+    &__socialMedia {
+      grid-column-start: 5;
+    }
+  }
+}

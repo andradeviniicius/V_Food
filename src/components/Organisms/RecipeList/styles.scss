@@ -1,0 +1,22 @@
+.recipeList {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  height: 100%;
+  &__content {
+    text-align: center;
+    width: 80vw;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 24px;
+    letter-spacing: -4%;
+    line-height: 0.8;
+  }
+  &__subTitle {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 2%;
+  }
+}

@@ -1,0 +1,20 @@
+.searchCategories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__content {
+    width: 90vw;
+    display: grid;
+    grid-template-areas:
+      "title button"
+      "bottom bottom";
+  }
+
+  &__title {
+    grid-area: title;
+  }
+  &__button {
+    justify-self: right;
+    grid-area: button;
+  }
+}
