@@ -1,0 +1,39 @@
+.contactInput {
+
+    display: grid;
+    place-items: center;
+
+    width: 400px;
+
+    &__label {
+        text-align: left;
+        width: 100%;
+
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+
+
+    }
+
+    &__input {
+        width: 100%;
+        height: 60px;
+
+        background: #fff;
+        // 10% hex opacity
+        border: 1px solid #0000001A;
+        border-radius: 16px;
+        padding-left: 20px;
+
+        &::placeholder {
+            // 60% hex opacity
+            color: #00000099;
+            opacity: 0.8;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+
+}
